@@ -48,7 +48,6 @@ gen/
 
 # Gradle files
 .gradle/
-build/
 /*/build/
 
 # IntelliJ files
@@ -66,3 +65,10 @@ proguard/
 
 # Visual Studio Code
 .vscode
+
+
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/patches
+!.yarn/plugins
